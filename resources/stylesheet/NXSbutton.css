@@ -1,0 +1,67 @@
+.NXSbutton{
+	background-image: url(../images/submenu_btn.png);
+	background-repeat:repeat-x !important;
+
+	display: inline-block; 
+	position: relative;
+
+	background-color:transparent !important;
+	border:1px solid #aeaeae !important;
+	-moz-border-radius: 3px !important; 
+	-webkit-border-radius: 3px !important; 
+	-khtml-border-radius: 3px !important; 
+	border-radius:3px !important;
+	margin:2px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.NXSbutton.hover {
+	background:none !important;
+}
+.NXSbutton a {
+	display:block;
+	height:18px !important;
+	padding-left:27px;
+	padding-right:9px;
+	padding-bottom:6px !important;
+	padding-top:8px !important;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:normal !important;
+	color:#5e5e5e !important;
+}
+.NXSbutton a.small {
+	height:15px;
+	padding-bottom:7px;
+	padding-top:6px;
+	font-weight:normal;
+}
+.NXSbutton a.nxs-button-clear{
+	background-image: url(../images/clear.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+}
+.NXSbutton a.nxs-button-logout{
+	background-image: url(../images/logout.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+}
+.NXSbutton a.nxs-button-user{
+	background-image: url(../images/user.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+}
+.NXSbutton a.nxs-button-cancel{
+	background-image: url(../images/cancel.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+}
+.NXSbutton a.nxs-button-save{
+	background-image: url(../images/save.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+}
+
+.NXSbutton a.none{
+	padding-left:9px;
+}

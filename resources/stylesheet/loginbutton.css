@@ -1,0 +1,60 @@
+.NXSbutton{
+	background-image: url(../images/login/btn.png);
+	background-repeat:repeat-x;
+	background-color:#FFF;
+	width:100%;
+	display: inline-block; 
+	position: relative;
+	border:1px solid #6d6d6d;
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px; 
+	-khtml-border-radius: 7px; 
+	border-radius:7px;
+	
+	-khtml-box-shadow: 0 1px 2px -2px black;
+	-moz-box-shadow:    0 1px 2px -2px black;
+  	-webkit-box-shadow: 0 1px 2px -2px black;
+ 	 box-shadow:        0 1px 2px -2px black;
+
+}
+.NXSbutton.hover {
+	background-image: url(../images/login/btn_hover.png) !important;
+}
+.NXSbutton a {
+	display:block;
+	height:22px;
+	text-align:center;
+	padding-bottom:6px;
+	padding-top:12px;
+	text-decoration:none;
+	font-weight:bold;
+	color:#135c00;
+	margin-right:15px;
+	
+}
+.NXSbutton a.preloading{
+	background-image: url(../images/ajax_loader3.png) !important;	
+	background-repeat:no-repeat ;
+	background-position:right center;
+	color:#666 !important;
+}
+.NXSbutton a.small {
+	height:15px;
+	padding-bottom:7px;
+	padding-top:6px;
+	font-weight:normal;
+}
+.NXSbutton a.nxs-button-options{
+	background-image: url(../images/options.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.NXSbutton a.nxs-button-add{
+	background-image: url(../images/plus.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+}
+
+.NXSbutton a.none{
+	padding-left:9px;
+}

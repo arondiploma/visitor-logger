@@ -1,0 +1,29 @@
+.LEbutton{
+	background-repeat:repeat-x;
+	display: inline-block; 
+	position: relative;
+	width:auto;
+	background-color:transparent !important;
+	border:1px solid  #CCC;
+}
+.LEbutton.hover {
+	background:none !important;
+}
+.LEbutton a {
+	display:block;
+	height:18px;
+	padding-left:14px;
+	padding-right:14px;
+	padding-bottom:1px;
+	padding-top:8px;
+	text-decoration:none;
+	font-size:12px;
+	font-weight:bold;
+	color:#333;
+}
+
+.LEbutton a.list{
+	background-image: url(../images/list-add.png);
+	background-position:center center;
+	background-repeat:no-repeat;
+}

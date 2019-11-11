@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.data_repeater_view {  width:100%; }
+.data_repeater_view_preloader{
+	background-image:url(../images/hbar_loader.gif);
+	background-position:top center;
+	background-repeat:no-repeat;
+	padding-top:18px;
+	color:#999;
+	font-size:11px;
+
+}
+.data_repeater_content { 
+	width:100%; 
+	border-bottom:1px  solid #cacaca; 
+
+	position:relative;
+	
+}
+
+.data_repeater_content table{
+	border-collapse:collapse; 
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.data_repeater_row_odd{
+	background-color:#fafafa;
+	
+}
+.data_repeater_row_even{
+	background-color:#fff;
+}
+
+.data_repeater_row_selected{ background-color:#ececec;}
+
+
+
+
+
+
+
+

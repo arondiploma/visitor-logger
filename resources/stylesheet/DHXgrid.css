@@ -1,0 +1,82 @@
+.inputbox{
+    border: solid 1px #b5b5b5;
+	background-image:url('../images/forms/txtbox.gif' );
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 4px;
+ 	font-family:Arial;
+}
+.inputbox_req{
+    border: solid 1px #F00 !important;
+}
+.label{
+    padding: 5px 0px 5px 0px;
+    font-size: 11px;
+    font-weight: bold;
+     	font-family:Arial;
+}
+.notification{
+	background: #000000;
+	color: #ffffff;
+	border: none;
+}
+
+.error-page{
+	border: solid 1px #b5b5b5;
+	border-radius: 5px;
+	padding: 10px 20px 10px 20px;
+	
+}
+
+.error-page-header{
+	font-size: 20px;
+}
+
+.error-page-description{
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+.grid-item{
+	height: 16px;
+	width: 16px;
+	cursor: pointer;
+	z-index: 999999;
+
+	padding:1px;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+.item-save{
+	background: url('../images/item_save.png') no-repeat center;
+}
+.item-pre-save{
+	background: url('../images/item_preSave.png') no-repeat center;
+}
+.item-new{
+	background: url('../images/item_new.png') no-repeat center;
+}
+.item-old{
+	background: url('../images/item_old.png') no-repeat center;
+}
+.item-edit{
+	background: url('../images/item_edit.png') no-repeat center;
+}
+.item-process{
+	background: url('../images/item_process.gif') no-repeat center;
+}
+.item-error{
+	background: url('../images/item_error.png') no-repeat center;
+}
+.item-delete{
+	background: url('../images/item_delete.png') no-repeat center;
+}
+.item-delete_dis{
+	background: url('../images/item_delete_dis.png') no-repeat center;
+}
+.item_delete-mark{
+	background: url('../images/item_deleteMark.png') no-repeat center;
+}
+.item_undo{
+	background: url('../images/item_undo.png') no-repeat center;
+}

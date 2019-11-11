@@ -1,0 +1,31 @@
+div.toolbar_tooltip{
+	display:none;
+	position:absolute;
+	text-align:center;
+	font-size:10px;
+	line-height:normal;
+	color:#fff;
+	z-index:100000;
+	opacity:.85;
+	filter:alpha(opacity = 85);
+}
+div.toolbar_tooltip p{
+	padding:6px 8px;
+	background-color:#000;
+	border-radius:2px;
+	font-size:11px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	max-width: 500px;
+}
+div.toolbar_tooltip div.tooltip_bottom_arrow{
+	width:0;
+	height:0;
+	margin:0 auto;
+	border-left:4px solid transparent;
+	border-right:4px solid transparent;
+	border-top:4px solid #000;
+	_border-left-color:white;
+	_border-right-color:white;
+	_filter:chroma(color=white);
+}

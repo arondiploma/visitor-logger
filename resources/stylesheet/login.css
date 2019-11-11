@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+*,body{
+	margin:0;
+	padding:0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+body{
+    background-color:#727272;
+	overflow:hidden;
+	
+}
+.wrapper{
+	
+	background-repeat:no-repeat;
+	height:600px;
+	width:654px;
+	margin:0 auto;
+
+}
+.wrapper .inner_wrapper{
+	position:relative;
+	margin:0 auto;
+	width:404px;
+}
+.wrapper .banner{
+	width:404px;
+	height:107px;
+
+	background-position:center;
+	background-repeat:no-repeat;
+	margin:0 auto;
+	position:absolute;
+	top:200px;
+	display:none;
+}
+
+.wrapper .content_wrapper{
+	width:404px;
+	position:absolute;
+	top:200px;
+	display:none;
+}
+.wrapper .content_wrapper .input_wrapper{
+	height:92px;
+	width:402px;
+	margin-bottom:30px;
+	background-repeat:repeat-x;
+	background-color:#eff0f1;
+	
+	border:1px solid #5e5e5e;
+	-moz-border-radius: 7px; 
+	-webkit-border-radius: 7px; 
+	-khtml-border-radius: 7px; 
+	border-radius:7px;
+	
+	-khtml-box-shadow: 	0 1px 2px -2px black;
+	-moz-box-shadow:    0 1px 2px -2px black;
+  	-webkit-box-shadow: 0 1px 2px -2px black;
+ 	 box-shadow:        0 1px 2px -2px black;
+}
+
+.wrapper .content_wrapper .error{
+	display:none; 
+	padding-left:19px; 
+	padding-top:13px;
+	padding-right:13px;
+	padding-bottom:10px; 
+	margin-top:7px; 
+	background-color:#f8f8f8;
+	color:#5f0000;
+
+	-moz-border-radius-bottomleft: 7px; 
+	-moz-border-radius-bottomright: 7px;
+	-webkit-border-bottom-left-radius: 7px; 
+	-webkit-border-bottom-right-radius: 7px; 
+	-khtml-border-bottom-left-radius: 7px; 
+	-khtml-border-bottom-right-radius: 7px; 
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	border:1px solid #e6e6e6;
+}
+
+.wrapper .content_wrapper .error .error_clear{
+	color:#00F;
+	text-decoration:none;
+}
+
+.wrapper .content_wrapper .input_wrapper div.item{
+	padding-top:11px;
+	padding-bottom:8px;
+	padding-left:19px;
+	padding-right:13px;
+}
+
+
+.wrapper .content_wrapper .input_wrapper div.item a.clear{
+	width:18px;
+	height:17px;
+	padding-top:1px;
+	display:none;
+	float:right;
+	margin-top:4px;
+	border-radius:9px;
+	-moz-border-radius:9px;
+	-webkit-border-radius:9px;
+	-khtml-border-radius:9px;
+	font-size:12px;
+	font-weight:600;
+	color:#fff;
+	text-decoration:none;
+	text-align:center;
+	background:#6d6d6d;
+}
+
+.wrapper .content_wrapper .input_wrapper div.item div{
+	width:60px;
+	float:left;
+	color:#666;
+	padding:6px;
+
+}
+.wrapper .content_wrapper .input_wrapper div.item input{
+	padding:6px;
+	width:265px;
+	border:none;
+	background-color:transparent;
+	border-left:1px solid #CCC;
+	font-family:Verdana, Geneva, sans-serif;
+}
